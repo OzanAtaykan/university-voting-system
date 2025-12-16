@@ -1,0 +1,16 @@
+# --- Python ---
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- SQLite ---
+# Ignore standard database files
+*.sqlite3
+*.db
+*.sqlite
+
+# Ignore Journal or WAL files (temporary files created by SQLite)
+*-journal
+*-wal
+*-shm
