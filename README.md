@@ -8,3 +8,5 @@ A website that will allow course representatives from different universities to 
 ## VueJS 
 ## SQLite3
 ## Python
+
+# Order of operations
