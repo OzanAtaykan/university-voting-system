@@ -3,11 +3,11 @@
 A website that will allow course representatives from different universities to run and gather their votes
 
 # Technologies in use  
-## HTML 
-## CSS
-## VueJS 
-## SQLite3 (database)
-## Python library: (djago or flask or maybe javascript framework?)
+HTML 
+CSS
+VueJS 
+SQLite3 (database)
+Python library: (djago or flask or maybe javascript framework?)
 
 # Order of operations (how the app works)
 ## Login 
