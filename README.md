@@ -3,17 +3,16 @@
 A website that will allow course representatives from different universities to run and gather their votes
 
 # Technologies in use  
-## HTML 
-## CSS
-## VueJS 
-## SQLite3 (databse)
-## Python (djago or flask or maybe javascript framework?)
+- HTML 
+- CSS
+- VueJS 
+- SQLite3 (database)
+- Python library: (djago or flask or maybe javascript framework?)
 
 # Order of operations (how the app works)
 ## Login 
 ### Existing users
 Everyone logs in as either a student (normal user) or staff (admin user). To log in, you need to give in your email and password. 
-
 
 ### New users
 When creating an account, you first need to choose whether you're logging as a student or member of staff
