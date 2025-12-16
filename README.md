@@ -13,7 +13,6 @@ A website that will allow course representatives from different universities to 
 ## Login 
 ### Existing users
 Everyone logs in as either a student (normal user) or staff (admin user). To log in, you need to give in your email and password. 
-SUGGESTION: learn to use email API and send verification code?
 
 
 ### New users
@@ -30,3 +29,9 @@ Staff members need to provide:
 - personal details (first and last name, email, profile picture?)
 - school details (university name, course name, year group, type of degree?)
 - account details (password, maybe display name?)
+
+
+### Suggestions
+- learn to use email API and send verification code?
+- use google API to get list of universities? instead of letting user type it out
+- maybe do this "list of universiteis" per country?
