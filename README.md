@@ -6,15 +6,14 @@ A website that will allow course representatives from different universities to 
 ## HTML 
 ## CSS
 ## VueJS 
-## SQLite3 (databse)
-## Python (djago or flask or maybe javascript framework?)
+## SQLite3 (database)
+## Python library: (djago or flask or maybe javascript framework?)
 
 # Order of operations (how the app works)
 ## Login 
 ### Existing users
 Everyone logs in as either a student (normal user) or staff (admin user). To log in, you need to give in your email and password. 
 SUGGESTION: learn to use email API and send verification code?
-
 
 ### New users
 When creating an account, you first need to choose whether you're logging as a student or member of staff
