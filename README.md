@@ -29,8 +29,15 @@ Staff members need to provide:
 - school details (university name, course name, year group, type of degree?)
 - account details (password, maybe display name?)
 
+### Once you're logged in
+Students are the default users, they can see information about their university and any course rep electioncs
 
-### Suggestions
+Staff users can start election cycles, choose which students will be candidates, and end election cycles. 
+
+At the end of elections, all users will see the results, and staff users can see an analysis of the election such as the turnout, which dates people voted the most, etc.
+
+
+### Login Suggestions
 - learn to use email API and send verification code?
 - use google API to get list of universities? instead of letting user type it out
 - maybe do this "list of universiteis" per country?
