@@ -1,38 +1,41 @@
-# university-voting-system
+# University Voting System
 
-A website that will allow course representatives from different universities to run and gather their votes
+Full-stack web application for managing course representative elections
 
-# Technologies in use  
-- HTML 
-- CSS
-- VueJS 
-- SQLite3 (database)
-- Python library: (djago or flask or maybe javascript framework?)
+## Overview
 
-# Order of operations (how the app works)
-## Login 
+This platform will allow university staff to manage the entire election lifecycle: candidate nominations to data analysis; while providing students with a secure and anonymous way to vote
+
+## Technical Stack
+* **Backend:** Django (Python) - Chosen for its robust security (CSRF/SQLi protection)
+* **Frontend:** VueJS - Handles the reactive user interface
+* **Database:** SQLite3 - A lightweight, file-based database for development
+* **Data Visualization:** Chart.js (integrated with Vue) for turnout analytics
+
+## Login
 ### Existing users
-Everyone logs in as either a student (normal user) or staff (admin user). To log in, you need to give in your email and password. 
+Everyone logs in as either a student (normal user) or staff (admin user). To log in, you need to give in your email and password.
 
 ### New users
 When creating an account, you first need to choose whether you're logging as a student or member of staff
 
-#### Creating an account as student
+### Creating an account as student
 Students need to provide:
+
 - personal details (first and last name, email, profile picture?)
 - school details (university name, course name, year group, type of degree?)
 - account details (password, maybe display name?)
 
-#### Creating an account as staff
+### Creating an account as staff
 Staff members need to provide:
+
 - personal details (first and last name, email, profile picture?)
 - school details (university name, course name, year group, type of degree?)
 - account details (password, maybe display name?)
-
-### Once you're logged in
+#### Once you're logged in
 Students are the default users, they can see information about their university and any course rep electioncs
 
-Staff users can start election cycles, choose which students will be candidates, and end election cycles. 
+Staff users can start election cycles, choose which students will be candidates, and end election cycles.
 
 At the end of elections, all users will see the results, and staff users can see an analysis of the election such as the turnout, which dates people voted the most, etc.
 
@@ -91,6 +94,11 @@ If we want to make this sophisticated, people can send photos, comment and uploa
 ### For staff...
 As a staff member, you can also make posts. When you start an election cycle, an automatic post is made announcing the start of the election. The same goes for when you end an election. Staff can also make their own custom posts. Staff posts are sent to everyone in the same university, no matter their course.
 
+### Notices (new) Suggestions (extra challenges for ourselves)
+- Users can comment and leave reactions on each post
+- Users can create a "Share Link" with each post, which they can then copy and post on their WhatsApp gc or smth
+- Users will have their feed split in two, one from staff and the other from candidates
+
 
 ## Admin Functions
 This is the page with the tools only staff users can use. These tools primarily involve:
@@ -110,3 +118,19 @@ As soon as an election ends, staff members can see and share the results. Staff 
 Staff can also check the results of previous elections (we will store previous elections in database).
 Staff will **NOT** be able to see who users voted for.
 
+### Admin Suggestions (extra challenges for ourselves)
+- I got nothing for this one 🤷‍♂️
+
+
+
+## Installation
+1.  **Clone Repo:** `git clone https://github.com/OzanAtaykan/university-voting-system.git`
+2.  **Backend:**
+    * `python -m venv venv`
+    * `source venv/bin/activate` (or `venv\Scripts\activate` on Windows)
+    * `pip install -r requirements.txt`
+    * `python manage.py migrate`
+3.  **Frontend:**
+    * `cd frontend`
+    * `npm install`
+    * `npm run serve`
