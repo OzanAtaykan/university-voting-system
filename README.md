@@ -7,10 +7,9 @@ Full-stack web application for managing course representative elections
 This platform will allow university staff to manage the entire election lifecycle: candidate nominations to data analysis; while providing students with a secure and anonymous way to vote
 
 ## Technical Stack
-* **Backend:** Django (Python) - Chosen for its robust security (CSRF/SQLi protection)
+* **Backend:** Express.js (which runs with Node.js)
 * **Frontend:** VueJS - Handles the reactive user interface
-* **Database:** SQLite3 - A lightweight, file-based database for development
-* **Data Visualization:** Chart.js (integrated with Vue) for turnout analytics
+* **Database:** mySQL database
 
 ## Login
 ### Existing users
