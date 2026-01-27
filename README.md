@@ -125,10 +125,9 @@ Staff will **NOT** be able to see who users voted for.
 ## Installation
 1.  **Clone Repo:** `git clone https://github.com/OzanAtaykan/university-voting-system.git`
 2.  **Backend:**
-    * `python -m venv venv`
-    * `source venv/bin/activate` (or `venv\Scripts\activate` on Windows)
-    * `pip install -r requirements.txt`
-    * `python manage.py migrate`
+    * `cd backend`
+    * `npm install`
+    * `node bro_i_forgot`
 3.  **Frontend:**
     * `cd frontend`
     * `npm install`
