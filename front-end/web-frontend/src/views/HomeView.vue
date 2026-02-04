@@ -4,7 +4,7 @@
       <!-- ------------ HEADER OF SIDEBAR ----------- -->
       <div class="sidebar-section">
         <button class="sidebar-button siderbar-header-item">
-          <img src="default-avater.jpg" alt="Default avatar icon">
+          <img id="profile-picture" alt="Default profile image" src="../assets/default-avatar.jpg">
         </button>
       </div>
 
@@ -80,6 +80,8 @@ export default {
   margin-bottom:20px;
 }
 
+
+
 .sidebar-main-item {
   background-color:rgb(0, 183, 255);
 }
@@ -89,7 +91,13 @@ export default {
 
 }
 
+#profile-picture {
+  width:100px;
+  height:100px;
+}
+
 #canvas {
   flex:1;
 }
+
 </style>
