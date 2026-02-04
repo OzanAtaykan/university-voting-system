@@ -2,7 +2,7 @@
   <div class="home">
     <div id="sidebar">
       <!-- ------------ HEADER OF SIDEBAR ----------- -->
-      <div class="sidebar-section">
+      <div class="sidebar-section" id="sidebar-header">
         <button class="sidebar-button siderbar-header-item">
           <img id="profile-picture" alt="Default profile image" src="../assets/default-avatar.jpg">
         </button>
@@ -78,9 +78,23 @@ export default {
   width:90%;
   margin-top:20px;
   margin-bottom:20px;
+  cursor:pointer;
 }
 
+#sidebar-header {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
 
+.siderbar-header-item {
+  background-color: inherit;
+  border: none;
+  width:90%;
+  height:90%;
+  margin-top:0px;
+  margin-bottom:0px;
+}
 
 .sidebar-main-item {
   background-color:rgb(0, 183, 255);
@@ -92,8 +106,12 @@ export default {
 }
 
 #profile-picture {
-  width:100px;
-  height:100px;
+  display:block;
+  width:inherit;
+  height:auto;
+  min-width:100px;
+  max-width:200px;
+  border-radius: 100px;
 }
 
 #canvas {
