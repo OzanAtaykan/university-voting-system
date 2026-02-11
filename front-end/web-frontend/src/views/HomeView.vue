@@ -4,7 +4,7 @@
       <!-- ------------ HEADER OF SIDEBAR ----------- -->
       <div class="sidebar-section" id="sidebar-header">
         <button class="sidebar-button siderbar-header-item">
-          <img id="profile-picture" alt="Default profile image" src="../assets/default-avatar.jpg">
+          <img id="profile-picture" alt="Default profile image" src="../assets/images/default-avatar.jpg">
         </button>
       </div>
 

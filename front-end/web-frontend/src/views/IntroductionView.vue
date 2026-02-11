@@ -1,6 +1,4 @@
 <template>
-<body>
-    
     <p style="text-align: right;"> <b>login</b> <b> create account</b></p>
     
     <h1>Welcome user</h1>
@@ -11,13 +9,13 @@
     </p>
 
     <h2>Voting</h2>
-    <img src="/images/votingImage.png", width="25%", alt="voting image, you shouldnt be seeing this", title="voting for users image", >
+    <img src="../assets/images/votingImage.png" width="25%" alt="voting image, you shouldnt be seeing this" title="voting for users image" >
     <p>vote for new admins by being able to see their CVs.
         You can also vote for new roles in your communities. Voting can also be restricted so only other admins can vote and not the other user
     </p>
 
     <h2>Threads</h2>
-    <img src="/images/threadsImage.png", width="25%", alt="image to show how threads look like", title="image to show how thread discussion looks like">
+    <img src="../assets/images/threadsImage.png" width="25%" alt="image to show how threads look like" title="image to show how thread discussion looks like">
     <p>This is where u can start a topic in a community. Alternatively you can reply to exisitng users or post what you feel. <br>
     Be respectful and mindful as what you say is monitored by admins</p>
 
@@ -25,8 +23,4 @@
     <p>
         click the login button on the top left corner. To join communities specifically for university students, you will need to enter student email
     </p>
-
-
-
-</body>
 </template>
