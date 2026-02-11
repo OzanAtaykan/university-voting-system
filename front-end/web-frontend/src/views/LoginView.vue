@@ -34,7 +34,7 @@ export default {
 
 <style scoped>
 .login {
-  min-height: 100vh;
+  min-height: calc(200vh-80px);
   background: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
 

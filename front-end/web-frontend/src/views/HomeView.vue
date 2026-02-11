@@ -54,23 +54,29 @@ export default {
 </script>
 
 <style scoped>
+* {
+  box-sizing: border-box;
+}
+
 .home {
-  display:flex;
+  display:grid;
+  grid-template-columns: 300px 1fr;
 }
 
 #sidebar {
-  width: 300px;
-  height: 100vh; /* Full viewport height */
+  min-height: calc(100vh - 80px);
+  height: 800px;
   background-color: #ffffff;
   display:grid;
-  grid-template-rows: 250px 400px 150px;
+  grid-template-rows: 250px 1fr auto;
+  /* grid-template-columns:  */
   row-gap:0px;
-  padding-bottom:10px;
   text-align:center;
+  border: 2px solid black;
 }
 
 .sidebar-section {
-  border: 2px solid black;
+  border-bottom: 2px solid black;
   margin-bottom: -2px;
 }
 
@@ -106,8 +112,7 @@ export default {
 }
 
 #profile-picture {
-  display:block;
-  width:inherit;
+  width:inherit; 
   height:auto;
   min-width:100px;
   max-width:200px;
